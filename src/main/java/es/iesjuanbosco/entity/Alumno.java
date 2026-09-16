@@ -1,6 +1,9 @@
 package es.iesjuanbosco.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -19,17 +22,17 @@ public class Alumno {
     private List<Asignatura> asignaturas;
 
     // Constructor
-    public Alumno(int id, String nombre, String apellidos, LocalDate fechaNacimiento, List<Asignatura> asignaturas) {
-        this.id = id;
-        this.nombre = nombre;
-        this.apellidos = apellidos;
-        this.fechaNacimiento = fechaNacimiento;
-        this.asignaturas = asignaturas;
-    }
+//    public Alumno(int id, String nombre, String apellidos, LocalDate fechaNacimiento, List<Asignatura> asignaturas) {
+//        this.id = id;
+//        this.nombre = nombre;
+//        this.apellidos = apellidos;
+//        this.fechaNacimiento = fechaNacimiento;
+//        this.asignaturas = asignaturas;
+//    }
 
     // Constructor vacio
-    public Alumno() {
-    }
+//    public Alumno() {
+//    }
 
     // Métodos públicos
     public int getId() {

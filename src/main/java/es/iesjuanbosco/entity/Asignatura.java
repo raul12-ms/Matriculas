@@ -14,16 +14,16 @@ public class Asignatura {
     private String descripcion;
 
     // Constructor
-    public Asignatura(int id, String nombre, String descripcion) {
-        this.id = id;
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-    }
+//    public Asignatura(int id, String nombre, String descripcion) {
+//        this.id = id;
+//        this.nombre = nombre;
+//        this.descripcion = descripcion;
+//    }
 
     // Constructor vacio
-    public Asignatura() {
-
-    }
+//    public Asignatura() {
+//
+//    }
 
     // Metodos públicos
     public int getId() {

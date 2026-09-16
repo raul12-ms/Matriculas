@@ -24,7 +24,7 @@ public class Main {
         alumno.addAsignatura(asignaturaPMDM);
 
         IO.println(alumno);
-        IO.println(alumno.getNombre() + "" + alumno.getApellidos() + " (" + alumno.getFechaNacimiento() + ")");
+        IO.println(alumno.getId() + ". " + alumno.getNombre() + "" + alumno.getApellidos() + " (" + alumno.getFechaNacimiento() + ")");
         alumno.getAsignaturas().forEach(asignatura -> {
             IO.println((" - " + asignatura.getNombre() + " " + asignatura.getDescripcion()));
         });
