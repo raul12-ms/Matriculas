@@ -8,20 +8,24 @@ import lombok.*;
 @Builder
 public class Asignatura {
 
+    // Atributos de instancia
     private int id;
     private String nombre;
     private String descripcion;
 
+    // Constructor
     public Asignatura(int id, String nombre, String descripcion) {
         this.id = id;
         this.nombre = nombre;
         this.descripcion = descripcion;
     }
 
+    // Constructor vacio
     public Asignatura() {
 
     }
 
+    // Metodos públicos
     public int getId() {
         return id;
     }
